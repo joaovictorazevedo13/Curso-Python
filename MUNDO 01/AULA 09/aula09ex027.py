@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome completo: ')).strip(" ")
+n1 = nome.find(" ")
+n2 = (nome.rfind(" ")+1)
+print('Primeiro nome: {}'.format(nome[:n1]))
+print('Ultimo nome: {}'.format(nome[n2:]))

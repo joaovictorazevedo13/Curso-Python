@@ -17,12 +17,12 @@ while True:
     if cont == 'N':
         break
 print(f'Total de pessoas cadastradas: {len(galera)}')
-print(f'Maior peso foi de {maior}Kg e foi de ', end='')
+print(f'Maior peso foi de {maior}Kg e foi de +', end='')
 for p in galera:
     if p[1] == maior:
         print(f'[{p[0]}] ', end='')
 print()
-print(f'Menor peso foi de {maior}Kg e foi de ', end='')
+print(f'Menor peso foi de {menor}Kg e foi de ', end='')
 for p in galera:
     if p[1] == menor:
         print(f'{p[0]}')
